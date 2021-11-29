@@ -1,5 +1,5 @@
 {
-    "name": "root",
+    "name": "eit-monitor",
     "private": true,
     "workspaces": [
         "packages/*"

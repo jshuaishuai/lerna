@@ -25,5 +25,6 @@
     "dependencies": {
         "colors": "^1.4.0",
         "import-local": "^3.0.3"
-    }
+    },
+    "gitHead": "60b3f4f4a7e0db1c266d2c7a222c685de03d1701"
 }
