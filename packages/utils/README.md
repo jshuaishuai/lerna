@@ -1,11 +1,11 @@
-# `@eit-monitor/utils`
+# `@eit-monit/utils`
 
 > TODO: description
 
 ## Usage
 
 ```
-const utils = require('@eit-monitor/utils');
+const utils = require('@eit-monit/utils');
 
 // TODO: DEMONSTRATE API
 ```

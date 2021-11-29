@@ -1,7 +1,7 @@
 "use strict";
 
 const _ = require("lodash");
-const behavior = require("@eit-monitor/behavior");
+const behavior = require("@eit-monit/behavior");
 const colors = require("colors/safe"); // log 有颜色输出
 
 function core() {

@@ -1,7 +1,7 @@
-'use strict';
+"use strict";
 
-const core = require('..');
+const core = require("..");
 
-describe('@eit-monitor/core', () => {
-    it('needs tests');
+describe("@eit-monit/core", () => {
+    it("needs tests");
 });

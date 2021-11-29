@@ -1,7 +1,7 @@
-'use strict';
+"use strict";
 
-const utils = require('..');
+const utils = require("..");
 
-describe('@eit-monitor/utils', () => {
-    it('needs tests');
+describe("@eit-monit/utils", () => {
+    it("needs tests");
 });

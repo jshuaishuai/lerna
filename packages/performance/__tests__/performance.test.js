@@ -1,7 +1,7 @@
-'use strict';
+"use strict";
 
-const performance = require('..');
+const performance = require("..");
 
-describe('@eit-monitor/performance', () => {
-    it('needs tests');
+describe("@eit-monit/performance", () => {
+    it("needs tests");
 });

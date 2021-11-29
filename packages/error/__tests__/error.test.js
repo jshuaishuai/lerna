@@ -1,7 +1,7 @@
-'use strict';
+"use strict";
 
-const error = require('..');
+const error = require("..");
 
-describe('@eit-monitor/error', () => {
-    it('needs tests');
+describe("@eit-monit/error", () => {
+    it("needs tests");
 });

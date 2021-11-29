@@ -1,11 +1,11 @@
-# `@eit-monitor/error`
+# `@eit-monit/error`
 
 > TODO: description
 
 ## Usage
 
 ```
-const error = require('@eit-monitor/error');
+const error = require('@eit-monit/error');
 
 // TODO: DEMONSTRATE API
 ```

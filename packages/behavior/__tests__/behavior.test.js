@@ -1,7 +1,7 @@
-'use strict';
+"use strict";
 
-const behavior = require('..');
+const behavior = require("..");
 
-describe('@eit-monitor/behavior', () => {
-    it('needs tests');
+describe("@eit-monit/behavior", () => {
+    it("needs tests");
 });

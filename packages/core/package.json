@@ -1,5 +1,5 @@
 {
-    "name": "@eit-monitor/core",
+    "name": "@eit-monit/core",
     "version": "1.0.5",
     "description": "> TODO: description",
     "author": "jshuaishuai <ajiang115@qq.com>",
@@ -27,5 +27,5 @@
         "colors": "^1.4.0",
         "import-local": "^3.0.3"
     },
-    "gitHead": "4acb6c18c01aac953b9df7ee39b78fc8131bbf45"
+    "gitHead": "fd6a5fcc65c4e6b1e6f22b5ee924aef5ca4fca66"
 }
