@@ -5,16 +5,18 @@
     "author": "jshuaishuai <ajiang115@qq.com>",
     "homepage": "",
     "license": "ISC",
-    "main": "lib/index.js",
+    "main": "lib/core.js",
+    "module": "es/core.js",
     "bin": {
-        "eit-monitor": "bin/index.js"
+        "eit-monitor": "bin/core.js"
     },
     "directories": {
         "lib": "lib",
         "test": "__tests__"
     },
     "files": [
-        "lib"
+        "lib",
+        "es"
     ],
     "publishConfig": {
         "registry": "https://registry.npmjs.org",

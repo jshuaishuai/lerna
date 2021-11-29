@@ -4,11 +4,22 @@
     "workspaces": [
         "packages/*"
     ],
+    "scripts": {
+        "build": "node scripts/build.js"
+    },
     "devDependencies": {
         "lerna": "^4.0.0"
     },
     "dependencies": {
-        "lodash": "^4.17.21"
+        "@babel/core": "^7.16.0",
+        "@babel/preset-env": "^7.16.4",
+        "@rollup/plugin-commonjs": "^21.0.1",
+        "@rollup/plugin-node-resolve": "^13.0.6",
+        "lodash": "^4.17.21",
+        "rollup": "^2.60.1",
+        "rollup-plugin-babel": "^4.4.0",
+        "rollup-plugin-commonjs": "^10.1.0",
+        "rollup-plugin-node-resolve": "^5.2.0"
     },
     "license": "ISC",
     "repository": {
