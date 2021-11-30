@@ -1,14 +1,18 @@
-"use strict";
+// "use strict";
 
-const _ = require("lodash");
+// const _ = require("lodash");
 const behavior = require("@eit-monit/behavior");
-const colors = require("colors/safe"); // log 有颜色输出
+// const colors = require("colors/safe"); // log 有颜色输出
 
 function core() {
     // TODO
     const obj = { name: "jason" };
-    console.log(colors.green(_.get(obj, "name")));
+    console.log(obj);
+    // console.log(colors.green(_.get(obj, "name")));
     behavior();
 }
 
 module.exports = core;
+// import behavior from "@eit-monit/behavior";
+
+// console.log(behavior());

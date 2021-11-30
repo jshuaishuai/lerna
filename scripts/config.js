@@ -1,6 +1,6 @@
 const path = require("path");
 const babel = require("rollup-plugin-babel");
-const node = require("rollup-plugin-node-resolve");
+const node = require("rollup-plugin-node-resolve"); // 查找外部模块
 const cjs = require("rollup-plugin-commonjs");
 
 const resolve = (p) => path.resolve(__dirname, "../", p);
