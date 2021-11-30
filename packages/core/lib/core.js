@@ -7,7 +7,6 @@ const behavior = require("@eit-monit/behavior");
 function core() {
     // TODO
     const obj = { name: "jason" };
-    console.log(obj);
     // console.log(colors.green(_.get(obj, "name")));
     behavior();
 }

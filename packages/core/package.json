@@ -16,7 +16,8 @@
     },
     "files": [
         "lib",
-        "es"
+        "es",
+        "bin"
     ],
     "publishConfig": {
         "registry": "https://registry.npmjs.org",
