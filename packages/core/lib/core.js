@@ -9,7 +9,7 @@ function core() {
     const obj = { name: "jason" };
     // console.log(colors.green(_.get(obj, "name")));
     behavior();
-    console.log(obj.name);
+    console.log("obj", obj.name);
 }
 
 module.exports = core;
