@@ -5,8 +5,6 @@
     "author": "jshuaishuai <ajiang115@qq.com>",
     "homepage": "",
     "license": "ISC",
-    "main": "lib/core.js",
-    "module": "es/core.js",
     "bin": {
         "eit-monitor": "bin/core.js"
     },
