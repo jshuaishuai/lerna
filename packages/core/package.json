@@ -6,7 +6,7 @@
     "homepage": "",
     "license": "ISC",
     "bin": {
-        "eit-monitor": "bin/core.js"
+        "eit-monitor": "bin/index.js"
     },
     "directories": {
         "lib": "lib",
