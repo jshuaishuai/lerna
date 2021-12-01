@@ -1,7 +1,6 @@
 const rollup = require("rollup");
 const fs = require("fs");
-const path = require("path");
-
+const { minify } = require("terser");
 let builds = require("./config").getAllBuilds();
 
 build(builds);
@@ -25,24 +24,19 @@ function build(builds) {
 function buildEntry(config) {
     const output = config.output;
     const { file } = output;
-    console.log(file, output);
+    const isProd = /(min|prod)\.js$/.test(file);
     return rollup
         .rollup(config)
         .then((bundle) => bundle.generate(output))
-        .then(({ output: [{ code }] }) => write(file, code));
+        .then(async ({ output: [{ code }] }) => {
+            if (isProd) {
+                const minified = await minify(code, { sourceMap: true });
+                return write(file, minified.code);
+            } else {
+                return write(file, code);
+            }
+        });
 }
-
-// function buildEntry(config) {
-//     const output = config.output;
-//     const { file } = output;
-//     return rollup.rollup(config).then((bundle) =>
-//         bundle.write({
-//             format: "es",
-//             moduleName: "main", //umd或iife模式下，若入口文件含 export，必须加上该属性
-//             dest: file,
-//         })
-//     );
-// }
 
 function write(dest, code) {
     return new Promise((resolve, reject) => {
